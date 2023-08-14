@@ -138,6 +138,7 @@ a{
 .button-on-image:hover{
     background-color: #CAC582;
     border:none;
+    cursor: pointer;
 }
 .two{
     width:100%;
@@ -369,11 +370,17 @@ textarea{
     color: #FFFFFF;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 
 }
+
 .lastbutton:hover{
+    border-color: #ffff;
+    color:#ffff;
+    background-color:rgba(0, 0, 0, 0.2) ;
     cursor: pointer;
-    background-color:rgba(0 0 0 0.1);
+
+    
 }
 span{
     margin-right:20px;
